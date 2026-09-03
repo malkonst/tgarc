@@ -1,0 +1,2034 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+
+  <meta charset="utf-8"/>
+<title>Exported Data</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+  <link href="css/style.css" rel="stylesheet"/>
+
+  <script src="js/script.js" type="text/javascript">
+
+  </script>
+
+ </head>
+
+ <body onload="CheckLocation();">
+
+  <div class="page_wrap">
+
+   <div class="page_header">
+
+    <div class="content">
+
+     <div class="text bold">
+VETA пробует 
+     </div>
+
+    </div>
+
+   </div>
+
+   <div class="page_body chat_page">
+
+    <div class="history">
+
+     <div class="message service" id="message-1">
+
+      <div class="body details">
+26 May 2025
+      </div>
+
+     </div>
+
+     <div class="message service" id="message1">
+
+      <div class="body details">
+Channel &laquo;VETA пробует&raquo; created
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message4">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="26.05.2025 22:07:56 UTC+03:00">
+22:07
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_1@26-05-2025_22-07-56.jpg">
+
+         <img class="photo" src="photos/photo_1@26-05-2025_22-07-56_thumb.jpg" style="width: 260px; height: 138px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Написал небольшую статью на Хабре про то, как в один вечер я попробовал новый Google Stitch. И так появилось приложение «Покупочки» — это микросервис, который позволяет голосом составлять красивый и удобный список покупок, легко отмечать купленное на ходу или редактировать список с пакетами в руках. В этот список не обязательно вглядываться, т. к. Artificial Intelligence заботливо подбирает эмодзи в тему товара<br>Статья вот тут: <a href="https://habr.com/ru/articles/913004/">https://habr.com/ru/articles/913004/</a><br><br>Предыдущую про то, как я поселил artificial intelligence в буфер обмена Windows, а потом ещё и в macOS, можно<a href="https://habr.com/ru/articles/891246/"> прочитать вот тут</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+7
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+👍
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-2">
+
+      <div class="body details">
+6 June 2025
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message5">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="06.06.2025 11:36:38 UTC+03:00">
+11:36
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_2@06-06-2025_11-36-38.jpg">
+
+         <img class="photo" src="photos/photo_2@06-06-2025_11-36-38_thumb.jpg" style="width: 215px; height: 116px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Привет! Вчера попалась на глаза новость в духе «Британские учёные выяснили», что самый эффективный ритм работы — это 75 минут труда и 33 минуты отдыха. Фактчекать я это не стал, но идея показалась прикольной, и я решил изобрести Pomodoro Timer и так появился ProcrastiNOT.<br><br>Мне интересно в этом проекте было реализовать несколько вещей:<br><br>• Иконка в трее, которая показывает информацию — динамически меняющееся число минут/секунд с цветовой кодировкой для разных режимов<br>• Кастомные окна — мне нравится стилёк Caramba Switcher, попробовал сделать нечто подобное со скруглёнными углами<br>• Попробовать, как Figma Make будет реализовывать мой интерфейс — он тут как раз довольно простой<br><br>И собственно все три пункта удалось воплотить (окно настроек только не стал рисовать — его полностью сделал Sonnet 4).<br><br>ProcrastiNOT — приложение на PyQt6, которое:<br><br>• Живёт в трее и показывает текущий статус<br>• Показывает красивые уведомления вместо стандартных системных попапов. Они всплывают в правом нижнем углу с fade-in анимацией, полупрозрачные, со скруглёнными углами<br>• Немного умеет в расписание — можно настроить активные часы, вне которых приложение спит и показывает «Zzz» в трее<br>• В настройках можно поменять длительность работы/отдыха/отсрочки, включить/выключить звуки, выбрать свой звуковой файл, настроить частоту обновления иконки и автозакрытие уведомлений<br><br>Ссылка на GitHub, там же можно скачать готовый exe для Windows, но запустить код можно в Windows/macOS/Linux<br><br><a href="https://github.com/Veta-one/ProcrastiNOT">https://github.com/Veta-one/ProcrastiNOT</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+2
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message6">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="06.06.2025 16:42:37 UTC+03:00">
+16:42
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="video_file_wrap clearfix pull_left" href="video_files/20250606-1334-44.3104594.mp4">
+
+         <div class="video_play_bg">
+
+          <div class="video_play">
+
+          </div>
+
+         </div>
+
+         <div class="video_duration">
+00:28
+         </div>
+
+         <img class="video_file" src="video_files/20250606-1334-44.3104594.mp4_thumb.jpg" style="width: 260px; height: 134px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Кстати, вот как работает Make у Figma: он входит в платную подписку, бесплатно не попробовать, но альтернативы удобнее сейчас на рынке вроде бы нет (может быть, только MCP сервер для курсора или в Claude Desktop напрямую), но всё же в Figma это уже реализовано из коробки, и Sonnet 4 там так же появился в момент релиза.<br><br>Копируешь фрейм → вставляешь в Make → и с промпта он пытается повторить твой дизайн кодом, так же может добавить интерактивности. Как дописывает код. сам его запускает и при ошибке сам всё переписывает.
+       </div>
+
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message7">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="06.06.2025 17:14:39 UTC+03:00">
+17:14
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="text">
+Хочу на выходных сесть писать очередной лонг для Хабра и заопенсорсить ещё один из своих проектов, давайте голосовать какой:<br><br>❤️ — Новый Clip Gen — стал немного быстрее, интерфейс лучше, все промпты и горячие клавиши можно менять напрямую в настройках. Пользуюсь им по сотне раз в день, очень удобная штука. Про его старую версию <a href="https://habr.com/ru/articles/891246/">уже есть статья </a><br><br>👍 — <a href="https://t.me/Siitch_bot">Сыч-бот</a> для групп в телеграме — сидит в вашей группе, поддерживает разговор, отвечает на вопросы, расшифровывает голосовухи. Работает через API Gemini. <br><br>🔥 — <a href="https://t.me/Veta_reminder_bot">Бот-напоминалка в телеграме </a>— супер удобная штука, когда тебе поступают разные задачи из разных мест. Боту можно отправить голосовуху типа &quot;Напомни мне через полтора часа пойти в магазин&quot; или &quot;В следующую пятницу в четыре часа вечера посмотреть в шкаф&quot; — и он напомнит. Под капотом у него тоже Gemini, распознаёт речь и ставит задачи идеально. О задаче он напомнит за 5 минут и за час (это и многое другое настраивается). Также можно в него записать все свои подписки — он посчитает, сколько всё стоит вам в год, и напомнит когда платить за Spotify или коммуналку (онлайн и офлайн подписки можно разделить). В общем, неплохой такой комбайн получился, тоже довольно удобный.<br><br>💩 — <a href="https://77.239.115.167:3001/">Микросервис заметок</a> — я обычно записываю разные команды или часто используемые промпты в блокнот, но блокнот неудобен (нет форматирования), а всякие Notion&apos;ы слишком тяжеловесные. Решил сделать только заметки, чтобы было максимально быстро и удобно. Встроенный редактор, разделение экрана на две половины — можно редактировать две заметки одновременно или подсматривать в одну, пока пишешь вторую. Авторизация по токену телеграма.
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+💩
+         </span>
+
+         <span class="count">
+2
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+👍
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+👎
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+👏
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-3">
+
+      <div class="body details">
+15 July 2025
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message8">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="15.07.2025 07:06:07 UTC+03:00">
+07:06
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="text">
+Что мне понравилось в Черногории — на каждом ценнике указывают стоимость товара за килограмм (литр). Очень удобно и тебе совершенно безразницы какой вес пачки — можно быстро сравнить цену. Например что дешевле молоко за 95₽ (900 мл) или за 105₽ (1 литр)?<br><br>У нас кажется шринкфляция стала основным методом борьбы с повышением цен, и стоимость товара за килограмм на ценнике явно покажет рост цен. Нет у меня других идей, почему не введут настолько простой и удобный инструмент сравнения цен для потребителя.<br><br>Поэтому вчера сел и написал простенького бота <a href="https://t.me/Price_per_kg_bot">@Price_per_kg_bot</a> — он приводит цены всех товаров к единой мерке (за кг/л/шт) и показывает, что реально дешевле.<br><br>Отправляй ему что удобно: фото ценников, голосовые сообщения с ценами и весом продуктов или текст — всё посчитает и отсортирует. Фото анализирует целиком, находит все ценники и выдаёт удобный список.
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+5
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+2
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-4">
+
+      <div class="body details">
+21 August 2025
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message9">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="21.08.2025 14:41:20 UTC+03:00">
+14:41
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="video_file_wrap clearfix pull_left" href="video_files/20250821-1018-39.5830672.mp4">
+
+         <div class="video_play_bg">
+
+          <div class="video_play">
+
+          </div>
+
+         </div>
+
+         <div class="video_duration">
+00:16
+         </div>
+
+         <img class="video_file" src="video_files/20250821-1018-39.5830672.mp4_thumb.jpg" style="width: 260px; height: 139px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Строю тут маме баню, и мне нужно сделать так, чтобы вода уходила в слив, который находится в центре. Для идеального слива воды надо делать уклон 3 сантиметра на метр. Хочу кинуть листы фанеры, но под них нужно проложить брусочки нужной высоты с нужным углом, чтобы основной уклон был идеальным. По идее, всё считается по формуле прямоугольного треугольника, но не зря же я 20 $ плачу. Набросал примерный интерфейс того, как хочу это видеть в Figme, и пошёл с одинаковой задачей в ChatGPT и в Claude. И, на удивление, ChatGPT справился с задачей офигеть как идеально. На выходе получил пятьсот строк кода, упакованных в HTML-ку, в которой могу добавлять этих брусочков сколько угодно, таскать их драгендропом, и все размеры пересчитываются на лету. Повайбакодил 15 минут, сократил себе работы часа на три-четыре )))
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+4
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+4
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+👏
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message default clearfix joined" id="message10">
+
+      <div class="body">
+
+       <div class="pull_right date details" title="21.08.2025 14:41:21 UTC+03:00">
+14:41
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="video_file_wrap clearfix pull_left" href="video_files/20250821-1020-33.6594742.mp4">
+
+         <div class="video_play_bg">
+
+          <div class="video_play">
+
+          </div>
+
+         </div>
+
+         <div class="video_duration">
+00:21
+         </div>
+
+         <img class="video_file" src="video_files/20250821-1020-33.6594742.mp4_thumb.jpg" style="width: 260px; height: 149px"/>
+
+        </a>
+
+       </div>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-5">
+
+      <div class="body details">
+5 December 2025
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message11">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="05.12.2025 19:31:05 UTC+03:00">
+19:31
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_3@05-12-2025_19-31-05.jpg">
+
+         <img class="photo" src="photos/photo_3@05-12-2025_19-31-05_thumb.jpg" style="width: 260px; height: 146px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Полгода назад я рассказывал про Сыча — своего бота-токсика.<br>Недавно я сел и переписал его почти с нуля. Теперь он не только токсик ))<br><br>Сейчас это не просто болталка, а полноценный участник чата с характером:<br>• Читает и пересказывает видео/голосовые.<br>• Гуглит инфу, не выходя из образа и показывает источники, где нашел инфу.<br>• Ставит напоминалки, понимая контекст («напомни об этом завтра»).<br>• Всё ещё работает бесплатно (на ротации ключей).<br><br><a href="https://habr.com/ru/articles/973804/">Написал статью на Хабр</a> с полным разбором архитектуры и ссылкой на GitHub.<br>Кому нужен живой бот в чатик — забирайте (исходники в статье)<br><br>UPD: добавил сыча в комментарии, там его можно потестировать<br><br>UPD2: Боту нет смысла писать в личку — там он не работает. Это сделано специально, чтобы люди с ним общались только в группах где он добавлен. Задать вопрос ему можно в комментариях под этим постом
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+11
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🥰
+         </span>
+
+         <span class="count">
+3
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+2
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-6">
+
+      <div class="body details">
+6 December 2025
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message13">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="06.12.2025 20:32:53 UTC+03:00">
+20:32
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_4@06-12-2025_20-32-53.jpg">
+
+         <img class="photo" src="photos/photo_4@06-12-2025_20-32-53_thumb.jpg" style="width: 260px; height: 146px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Многие пишут Сычу в личку, и там он не работает, и вот почему: бот работает на моих API-ключах Google, и я отвечаю за всё, что он генерирует. Поэтому он работает только там, где есть я (в чатах) или в моей личке<br><br><strong>Но я выложил код в Open Source!</strong><br>Это значит, что ты можешь скачать его, вставить <strong>свои</strong> ключи и получить собственного, абсолютно бесплатного и почти безлимитного бота.<br><br>• Добавляй его в свои рабочие или личные чаты.<br>• Болтай с ним в личке хоть до утра.<br>• Меняй ему характер в настройках на какой хочешь.<br><br>Скачать бота тут: <a href="https://github.com/Veta-one/sych-bot">https://github.com/Veta-one/sych-bot</a><br>(Там зеленая кнопка Code -&gt; Download ZIP)<br><br><strong>Ниже подробная инструкция, как запустить его за 10 минут.</strong><br><br><strong>1. Подготовка</strong><br>Тебе понадобится компьютер (Mac, Windows или Linux) и установленная программа Node.js (это движок, на котором работает бот).<br>• Скачай архив с ботом по ссылке выше и распакуй в папку.<br>• Зайди на <code>nodejs.org</code>, скачай версию <strong>LTS</strong> и установи её (просто нажимай &quot;Далее&quot;).<br><br><strong>2. Google API</strong><br>Сыч работает на нейросети Gemini Flash. Она быстрая и бесплатная.<br>• Включи VPN (если ты в РФ, желательно выбери страну США, чтобы сработало наверняка, но работают некоторые страны Европы, но не все)<br>• Зайди на <code>aistudio.google.com/api-keys</code>.<br>• Нажми <strong>Get API key</strong> -&gt; <strong>Create API key</strong>.<br>• Скопируй ключ, начинающийся на <code>AIza...</code>.<br><br><strong>3. Telegram</strong><br>Создаем самого бота в Телеграме.<br>• Найди бота <a href="https://t.me/BotFather">@BotFather</a>.<br>• Напиши ему команду <code>/newbot</code>.<br>• Придумай имя и юзернейм (обязательно должен заканчиваться на <code>bot</code>).<br>• Он выдаст тебе <strong>Token</strong>. Скопируй его.<br><br><strong>4. Твой ID</strong><br>Чтобы бот слушался только тебя, нужно узнать свой цифровой ID.<br>• Найди бота <a href="https://t.me/getmyid_bot">@getmyid_bot</a>.<br>• Запусти его.<br>• Скопируй цифры из строчки <code>Your User ID</code> (например: 2983152).<br><br><strong>5. Сборка</strong><br>Теперь соединяем всё вместе.<br>• В папке с ботом найди файл <code>.env.example</code>.<br>• Переименуй его в <code>.env</code> (убери точку и слово example).<br>• Открой этот файл любым текстовым редактором (Блокнот, TextEdit).<br>• Вставь свои данные после знака равно:<br><code>TELEGRAM_BOT_TOKEN=</code>(сюда токен из п.3)<br><code>ADMIN_USER_ID=</code>(сюда твой ID из п.4)<br><code>GOOGLE_GEMINI_API_KEY=</code>(сюда ключ Google из п.2)<br>• Сохрани файл.<br>• <strong>Лайфхак для стабильности:</strong> У бесплатных ключей есть лимиты запросов. Чтобы бот не замолкал при активном общении, создай в Google еще несколько ключей и добавь их с новой строки, приписывая цифру:<br><code>GOOGLE_GEMINI_API_KEY_2=</code>(второй ключ)<br><code>GOOGLE_GEMINI_API_KEY_3=</code>(третий ключ)<br>и так далее. Бот сам будет переключаться между ними.<br><br><strong>6. Запуск</strong><br>• Открой эту папку в терминале (На Windows: правой кнопкой мыши внутри папки -&gt; &quot;Открыть в терминале&quot;).<br>• Напиши команду для установки библиотек и нажми Enter:<br><code>npm install</code><br>• Напиши команду запуска и нажми Enter:<br><code>npm start</code><br><br><strong>Если собираетесь добавить его в группу</strong>, не забывайте дать ему права администратора, иначе он не будет видеть ваши сообщения типа &quot;Сыч привет&quot;, т.к. в целях безопасности боты в Telegram без прав не видят сообщений пользователей<br><br><strong>Как сделать, чтобы работал 24/7?</strong><br>Если запустить на компьютере, бот уснет вместе с ним. Чтобы он работал всегда, нужен недорогой VPS-сервер (стоит ~400 ₽/мес).<br>Там процесс почти такой же, но нужно настроить автозапуск через PM2.<br><br><strong>Есть вопросы по серверу или что-то не получается?</strong> Пиши в комментарии! Я (или сам Сыч) подскажем, как всё настроить.
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+9
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-7">
+
+      <div class="body details">
+8 December 2025
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message14">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="08.12.2025 20:43:44 UTC+03:00">
+20:43
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_5@08-12-2025_20-43-44.jpg">
+
+         <img class="photo" src="photos/photo_5@08-12-2025_20-43-44_thumb.jpg" style="width: 260px; height: 146px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Про Сыча поговорили, теперь о серьезном ))<br><br>Если бот в чате развлекает, то эта штука экономит мне уйму времени каждый день. Встречайте <strong>ClipGen.</strong><br><br><a href="https://habr.com/ru/articles/891246/">В мае я уже писал про ClipGen</a> — свою утилиту, которая внедряет нейросети прямо в буфер обмена Windows. За это время я переписал её архитектуру, и теперь это настоящий комбайн для продуктивности.<br><br><strong>Суть простая: </strong>Выделил текст (или скопировал картинку) → Нажал хоткей → Получил результат (перевод, правку, OCR, объяснение) прямо на месте. Без Alt+Tab и браузера.<br><br>Завтра выложу на Хабр большую статью с разбором кода новой версии и открою исходники на GitHub.<br>Upd: <a href="https://habr.com/ru/articles/974706/">ссылка на статью</a>, исходники уже на <a href="https://github.com/Veta-one/ClipGen">Github</a><br><br>А пока, для самых нетерпеливых — <strong>закинул готовый portable EXE в комментарии</strong> (установка не нужна).<br>Нужно только <a href="https://aistudio.google.com/api-keys">зайти сюда</a>, получить свой API ключ и вставить его в Clipgen в настройках, всё. <br><br><a href="https://youtu.be/Qc-eO0ArJ24">Так же записал короткий видосик,</a> как именно я его применяю каждый день с примерами<br><br>Качайте, пробуйте, пишите фидбек!👇
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+14
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+3
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-8">
+
+      <div class="body details">
+10 December 2025
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message15">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="10.12.2025 08:38:47 UTC+03:00">
+08:38
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_6@10-12-2025_08-38-47.jpg">
+
+         <img class="photo" src="photos/photo_6@10-12-2025_08-38-47_thumb.jpg" style="width: 260px; height: 145px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+<strong>Сегодня</strong> с утра немного обновил Сыча <br><br>Гугл закрутил гайки с лимитами на API (всего ~20 запросов в день на топовых моделях), поэтому, чтобы Сыч не умирал к обеду, пришлось его немного переписать.<br><br><strong>Что изменилось:</strong><br><br><strong>Раздвоение личности (Dual-Core AI)</strong><br>Раньше Сыч тратил дорогие лимиты на всё подряд. Теперь обязанности разделены:<br>• <strong>Gemma 3 (27b-it):</strong>  молча анализирует чат, решает, нужно ли отвечать, ставит реакции и обновляет досье на пользователей. У неё огромные лимиты, поэтому она берет на себя 90% рутины.<br>• <strong>Gemini 2.5 Flash:</strong> подключается только когда нужно сгенерировать смешной ответ, послушать голосовое или описать картинку.<br><br><strong>Gemini 2.5 Flash</strong> <strong>lite (Fallback)</strong><br>Если основные ключи всё-таки заканчиваются, бот больше не падает с ошибкой. Он автоматически переключается на запасную модель <strong>Flash-Lite</strong>. Он чуть проще, но зато Сыч остается в строю до конца дня.<br><br><strong>Новая команда: «Сыч стата»</strong><br>Показывает здоровье всех API-ключей и подробную статистику расхода: сколько запросов ушло на основу, сколько на лайт-версию, а сколько на Гемму. И какая сейчас модель работает. <br><br><strong>По мелочи:</strong><br>• В логах в консоли теперь нормальное время.<br>• Пофиксил баг, ошибки  при окончании лимитов.<br><br><a href="https://github.com/Veta-one/sych-bot">Обновление на</a> <a href="https://github.com/Veta-one/sych-bot">гитхаб</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+👍
+         </span>
+
+         <span class="count">
+9
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+4
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+2
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-9">
+
+      <div class="body details">
+12 December 2025
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message17">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="12.12.2025 12:26:19 UTC+03:00">
+12:26
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_7@12-12-2025_12-26-19.jpg">
+
+         <img class="photo" src="photos/photo_7@12-12-2025_12-26-19_thumb.jpg" style="width: 260px; height: 145px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+<strong>ClipGen 2.0.2: Прокси и Автономность</strong><br><br>Выкатил важный апдейт. Главная цель — сделать программу полностью автономной и удобной для использования в РФ без лишних действий.<br><br><strong>Что нового:</strong><br><br><strong>1. Нативная поддержка Прокси</strong><br>Больше не обязательно держать включенным системный VPN. В настройках теперь можно указать свой прокси (поддерживаются HTTP и SOCKS5), и ClipGen будет обращаться к Google точечно через него. Обратите внимание на  формат ввода: <code>login:password@ip:port</code>.<br><br><strong>Где брать прокси:</strong><br>Для тестов брал на <a href="https://proxy6.net/?r=825727">proxy6.net</a> (ссылка реферальная). Нужен «IPv4 Прокси» США/Европа (Но уточните, работает ли AI Studio в этой стране, в США точно работает, его и купил себе для теста).<br><strong>Стоит 33 рубля в месяц.</strong> Можно оплатить картой РФ или криптой. Но конечно вы можете использовать любой свой прокси, если уже есть<br><br><strong>2. Система обновлений</strong><br>Теперь не нужно мониторить GitHub вручную. Программа сама в фоновом режиме проверяет наличие новых версий каждый раз при старте.<br>Если вышел апдейт — иконка в трее загорится синим цветом.<br>• Добавил ручную проверку по кнопке &quot;Проверить обновления&quot;.<br>• Добавлена возможность «Пропустить версию», если обновляться прямо сейчас не хочется. ClipGen уведомит в следующий раз только, когда версия на GitHub опять изменится<br><br><strong>3. Миграция настроек</strong><br>Внедрил безопасную систему обновления конфига. При замене <code>exe</code> файла старый <code>settings.json</code> не перезаписывается, а аккуратно дополняется новыми параметрами. Ваши API-ключи и промпты остаются на месте.<br><br><strong>4. Интерфейс</strong><br>Вынес редактирование промптов в отдельное окно. Стало просторнее и удобнее работать с большими текстами промптов. Настройки моделей и API-ключей с прокси теперь не мешают<br><br><strong>Скачать:</strong><br><a href="https://github.com/Veta-one/ClipGen/releases">Обновленный EXE уже на GitHub</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+👍
+         </span>
+
+         <span class="count">
+5
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+3
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-10">
+
+      <div class="body details">
+2 January 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message18">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="02.01.2026 17:50:17 UTC+03:00">
+17:50
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_8@02-01-2026_17-50-17.jpg">
+
+         <img class="photo" src="photos/photo_8@02-01-2026_17-50-17_thumb.jpg" style="width: 260px; height: 145px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+<strong>Сыч v1.1: Большой переезд на OpenRouter</strong><br><br>Люблю праздники за то, что можно наконец-то сесть и спокойно покодить. Немного прокачал бота: прошлая версия быстро упиралась в бесплатные лимиты Google, поэтому я решил перевести Сыча на рельсы — OpenRouter.<br><br>В .env добавилась переменная OPENROUTER_API_KEY. Логика теперь такая: если ключ есть — бот работает через агрегатор, если нет — по старинке крутит бесплатные ключи Google (с их ротацией).<br><br>Что изменилось под капотом:<br><br><strong>Экономика вопроса</strong><br>OpenRouter дает доступ к 500+ моделям, но это удовольствие уже платное. Я разделил обязанности между нейронками, чтобы это стоило копейки, но работало круто.<br>Средняя цена за ответ получается такой:<br>• Анализ (Gemma 3 27B): ~0,006₽ (почти бесплатно, работает в фоне, решает, отвечать ли боту).<br>• Ответы (Gemini 3 Flash): ~0,10₽ (генерирует основные ответы).<br>• Поиск (Perplexity Sonar): ~0,43₽ (подключается только для поиска).<br><br><strong>Архитектура RAG (Perplexity + Gemini)</strong><br>Тут вылез нюанс: У gemini через OpenRouter нет доступа к интернету (в отличие от нативного Google API).<br>Поэтому я реализовал схему RAG:<br>Если вы спрашиваете про курс доллара, погоду или новости — запрос сначала летит в Perplexity Sonar. Это поисковая нейронка. Она пылесосит интернет и отдает актуальные факты со ссылками.<br>Эти факты скармливаются Gemini, и уже она выдает финальный ответ в стиле бота.<br>Итог: Актуальные данные, пруфы и фирменный стиль совы.<br><br><strong>Учет часовых поясов</strong><br>Сыч стал внимательнее. Если вы напишете в чате <code>Я сейчас в Москве</code> или <code>Я из Бруклина</code>, фоновая модель (Gemma) молча запишет это в ваше досье.<br>В следующий раз при вопросе <code>Сколько время?</code> бот посмотрит на серверное время (Екб), глянет в ваш профиль и сам посчитает разницу поясов.<br><br><strong>Админка и Банхаммер</strong><br>Добавил полноценную модерацию для админа:<br>• <a href="" onclick="return ShowBotCommand(&quot;ban&quot;)">/ban</a> <a href="https://t.me/username">@username</a> — выписывает билет в один конец (бот начинает игнорить пользователя).<br>• <a href="" onclick="return ShowBotCommand(&quot;ban&quot;)">/ban</a> (без аргументов) — показывает список последних активных юзеров, чтобы быстро прихлопнуть спамера, даже если у него нет юзернейма.<br><br>Переезд пока тестовый, я ещё посмотрю экономику, пока мне нравится OpenRouter и очень нравится Gemini 3 Flash, сова с ним начала отвечать очень шустро, ответы стали значительно лучше, а вот что касается Perplexity, то тут и ответы дольше, и каждый ответ дороже почти в 5 раз, и кажется, что можно сделать дешевле, если есть идеи как, то приглашаю в комменты<br><br><a href="https://github.com/Veta-one/sych-bot">Код, уже на github</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+👍
+         </span>
+
+         <span class="count">
+5
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+2
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-11">
+
+      <div class="body details">
+3 January 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message19">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="03.01.2026 13:17:31 UTC+03:00">
+13:17
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_9@03-01-2026_13-17-31.jpg">
+
+         <img class="photo" src="photos/photo_9@03-01-2026_13-17-31_thumb.jpg" style="width: 260px; height: 145px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+<a href = "stickers/sticker.webp">🦉</a> <strong>Сыч v1.2: Всеядный бот и немного о поиске</strong><br><br>Продолжаю пилить бота. После вчерашнего поста про переход на OpenRouter я немного поресерчил насчет того, как работают нейронки с интернетом.<br><br><strong>Про поиск</strong><br>Когда сидишь на игле Google API, кажется, что доступ в сеть — это базовая функция модели. Спросил курс доллара — она ответила. Оказалось, что нет. Большинство моделей в API — &quot;слепые&quot;. Поиск — это отдельная, дорогая и сложная услуга. А Google просто давал нам это &quot;бесплатно&quot;.<br><br>В прошлом посте я писал, что Perplexity Sonar хоть и хорошая модель, но не самая дешевая. В комментариях <a href="https://t.me/presnjakov">@presnjakov</a> подсказал отличное решение — сервис Tavily, а также идею сделать полный ввод параметров эндпоинта, чтобы не зависеть от одного провайдера.<br><br>Что нового в версии 1.2:<br><br><strong>Tavily вместо Perplexity</strong><br><a href="https://app.tavily.com/home">Я интегрировал Tavily</a>. Это поисковик, созданный специально для AI-агентов. Он возвращает чистый, структурированный текст, который легко скармливать нейронке.<br><br>Математика тут интересная:<br>• Запрос к Sonar стоит примерно $0.00675<br>• Запрос к Tavily стоит $0.008 (да, он дороже)<br><br>Но есть нюанс. Tavily дает 1000 бесплатных кредитов в месяц. Самое приятное — карта не нужна, просто логинитесь через GitHub/Google и сразу получаете ключ. Учитывая, что один качественный поиск стоит 2 кредита, мы получаем 500 бесплатных запросов к гуглу в месяц. Для чат бота этого более чем достаточно, т.к. далеко не каждый запрос отправляет его гуглить, поэтому по итогу выходит выгоднее.<br><br><strong>Умный каскад (Smart Fallback)</strong><br>Я не просто заменил один поисковик на другой, а сделал систему надежной.<br>Работает это каскадом: если вы не ввели ключ от Tavily или там кончились лимиты, бот сам переключится на нативный поиск от Google (если есть ключи). Это делает бота &quot;неубиваемым&quot;.<br><br><strong>Всеядность (Vendor Agnostic)</strong><br>Теперь Сыч не привязан жестко ни к Google, ни к OpenRouter. Я вынес настройки API в конфиг. Теперь вы можете вписать любой BASE_URL.<br>Хотите — подключайте DeepSeek напрямую, хотите — Mistral, хотите — вообще локальную Ollama. Бот съест любой OpenAI-совместимый API.<br><br><strong>Google больше не нужен (почти)</strong><br>Бот научился работать вообще без ключей Google. Если у вас есть ключ от OpenRouter/DeepSeek и ключ Tavily — этого достаточно.<br>Google API теперь используется только как запаска (Fallback): если основной платный канал упадет или кончатся деньги, бот автоматически переключится на бесплатные ключи Gemini, чтобы не молчать.<br><br>Мне понравилась эта архитектура. Такую же механику (всеядность по моделям) теперь буду внедрять в следующие свои проекты. Следующим на очереди будет <a href = "stickers/sticker (1).webp">😎</a> ClipGen, меня давно просили отвязать его от Gemini и сейчас как раз самое время.<br><br><a href = "stickers/sticker (2).webp">😎</a> <a href="https://github.com/Veta-one/sych-bot">Код на GitHub</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+3
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+👍
+         </span>
+
+         <span class="count">
+3
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🥰
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message20">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="03.01.2026 21:20:09 UTC+03:00">
+21:20
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_10@03-01-2026_21-20-09.jpg">
+
+         <img class="photo" src="photos/photo_10@03-01-2026_21-20-09_thumb.jpg" style="width: 260px; height: 145px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+<a href = "stickers/sticker (1).webp">😎</a> <strong>ClipGen 2.1.0: Vendor Agnostic и экономика API</strong><br><br>Ключевой апдейт, меняющий архитектуру приложения. Теперь ClipGen — это универсальный клиент, который не привязан жестко к экосистеме Google.<br><br><strong>Что нового:</strong><br><br><strong>1. Поддержка OpenAI-compatible API</strong><br>В настройках появился селектор провайдера. Теперь можно использовать DeepSeek, официальный OpenAI или локальные модели (Ollama/LM Studio). Достаточно указать Base URL и API-ключ.<br><br><strong>2. OpenRouter</strong><br>Для работы со сторонними моделями (Claude, GPT-4, Llama 3) я выбрал <a href="https://openrouter.ai/">OpenRouter</a>. Плюсы, которые отметил для себя:<br><strong>• Это агрегатор: </strong>один API-ключ дает доступ к сотням разных нейросетей.<br><strong>• Оплата криптой:</strong> удобно пополнять баланс без привязки карт.<br><strong>• Бесплатные модели: </strong>если закинуть на счет 10$, открывается доступ к списку бесплатных моделей, запросы к которым вообще не тарифицируются.<br><br><strong>3. Масштабирование (High DPI)</strong><br>Решена проблема с мелким интерфейсом на 2K и 4K мониторах. Программа теперь корректно считывает системный масштаб Windows. Шрифты и элементы управления автоматически подстраиваются под разрешение экрана.<br><br><strong>4. Исправление автозагрузки</strong><br>Устранен баг, из-за которого программа могла не запускаться или терять настройки при старте Windows через реестр (проблема рабочей директории).<br><br><strong>5. Экономика использования</strong><br>Для тех, кто планирует использовать платные API, посчитал реальную стоимость на примере Gemini 2.5 Flash Lite (при текущем курсе ~80,44 ₽).<br><br><strong>Статистика по типам запросов:</strong><br>• Коррекция текста в мессенджере (350 токенов): ~0,005 ₽ (полкопейки).<br>• Распознавание простой картинки: ~0,015 ₽.<br>• Разбор сложной таблицы скриншотом: ~0,026 ₽.<br><br>Итого: если за день сделать 100 текстовых запросов и обработать 50 изображений, общая стоимость составит примерно 1,5 рубля. Меня приятно удивила стоимость одного запроса )) <br><br><br><a href = "stickers/sticker (2).webp">😎</a> Скачать: <a href="https://github.com/Veta-one/ClipGen/releases">Обновленный EXE уже на GitHub</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+8
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+👍
+         </span>
+
+         <span class="count">
+2
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-12">
+
+      <div class="body details">
+4 January 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message21">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="04.01.2026 09:23:01 UTC+03:00">
+09:23
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_11@04-01-2026_09-23-01.jpg">
+
+         <img class="photo" src="photos/photo_11@04-01-2026_09-23-01_thumb.jpg" style="width: 260px; height: 146px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Не помню, говорил я тут или нет, но вообще я дизайнер. И сегодняшнее утро началось с прикольного кейса, как программирование помогает мне в основной работе.<br><br>Была задача: нарисовать карту с геотегами. Всего 18 категорий: от «Одежды и текстиля» до «Спа» и «Предметов роскоши». Чтобы проверить, как иконки смотрятся вместе, нужно быстро набрать варианты под каждую группу.<br><br>Я выбрал <a href="https://tabler.io/icons">Tabler Icons</a>. Это огромный пак на 5000 иконок прямо в Figma. Стиль отличный, но искать нужные руками среди 5000 слоев — долго. Названия часто технические, и быстро понять, какая иконка подойдет под категорию «Консалтинг», сложно. Поиск по ключевым словам не всегда спасает.<br><br>Решил написать плагин, который упростит эту рутину.<br><br><strong>Как он работает:</strong><br><br>• Плагин сканирует документ и выдергивает названия слоёв всех 5000 иконок в один текстовый документ.<br>• Я отдаю этот список нейронке вместе со списком моих категорий, вот с таким промптом:<br><br><blockquote>Я дам тебе список названий иконок. Твоя задача — распределить их по категориям.<br>Важные правила:<br>Ответ должен быть ТОЛЬКО в формате JSON. Не пиши никакого вступления, объяснений или нумерации.<br>Формат JSON должен быть таким: массив объектов, где у каждого объекта есть поле category (строка) и icons (массив строк с названиями).<br>Если иконка подходит в несколько категорий, добавь её во все подходящие.<br>Используй ровно те названия категорий, которые я дам ниже.<br><br>Категории:<br>Одежда и текстиль<br>Изделия из меха<br>...</blockquote><br><br>• Нейросеть возвращает структурированный JSON, где каждая иконка уже лежит в своей папке.<br>• Я вставляю этот код обратно в плагин, нажимаю кнопку — и на новой странице в Figma создается аккуратная сетка, где все иконки уже рассортированы и подписаны.<br><br>В теории можно было встроить и сюда API Gemini, чтобы все работало вообще по одной кнопке, но даже в такой конфигурации это экономит часы рабочего времени на длинной дистанции.<br><br>Плагин получился универсальным. Он сработает с любыми документами в Figma, где есть куча компонентов или слоёв, которые нужно быстро структурировать — будь то иконки, элементы интерфейса или что угодно ещё.<br><br>Архив с кодом плагина прикреплю в комментариях. Но на его написание ушло минут 10 с момента идеи до получения новой сгруппированной страницы, поэтому советую попробовать написать с нуля самому — это сложно и долго только в первый раз. <br><br>Ну и сыч в комментариях, если что, подскажет, как в Figma запустить самописный плагин со своего компьютера ))
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+7
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+👍
+         </span>
+
+         <span class="count">
+3
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-13">
+
+      <div class="body details">
+1 February 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message22">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="01.02.2026 11:10:11 UTC+03:00">
+11:10
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_12@01-02-2026_11-10-11.jpg">
+
+         <img class="photo" src="photos/photo_12@01-02-2026_11-10-11_thumb.jpg" style="width: 260px; height: 146px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+<a href = "stickers/sticker (1).webp">😎</a> <strong>ClipGen 2.3.0: Режим обучения и модульная архитектура</strong><br><br>Большое обновление, которое делает ClipGen не просто инструментом автоматизации, а персональным репетитором.<br><br><strong>Что нового:</strong><br>Режим обучения (Learning Mode)<br>Главная фича релиза. Включите режим обучения для любого хоткея — и после каждого исправления текста вы увидите объяснение:<br>• Почему слово пишется именно так<br>• Зачем здесь нужна запятая или тире<br>• Что было не так и как стало правильно<br><br>Режим включается отдельно для каждого хоткея — хотите объяснения только для коррекции? Включите там. Для перевода не нужно? Не включайте.<br><br>Промпт обучения можно настроить под себя. По умолчанию он объясняет грамматику, но вы можете переписать его как угодно — попросить разбирать стилистику, объяснять выбор слов при переводе, или фокусироваться на конкретных правилах.<br><br>Работает и для изучения языков. Переводите текст — получаете объяснение, почему слова переводятся именно так. Проверяете текст на иностранном — видите правила грамматики.<br><br>Объяснения появляются во всплывающем окне (исчезает через 3 секунды, если не навести курсор) и дублируются в логах.<br><br><strong>Индивидуальная модель для каждого хоткея</strong><br>Раньше все действия использовали одну глобальную модель. Теперь можно настроить:<br>• Ctrl+F1 — быстрая коррекция через Gemini Flash (дёшево и быстро)<br>• Ctrl+F2 — качественный перевод через GPT-5 (точнее)<br>• Ctrl+F3 — анализ кода через Claude Opus (умнее)<br>В карточке каждого хоткея появился переключатель «Своя модель». Включаете — выбираете провайдера и модель. Выключаете — используется глобальная настройка.<br><br><strong>Полный рефакторинг архитектуры</strong>:<br>Под капотом — это новое приложение. 2 файла на 5000+ строк превратились в 26 модулей с чёткой структурой:<br>• core/ — конфигурация<br>• api/ — провайдеры Gemini и OpenAI<br>• ui/ — интерфейс по вкладкам<br>• utils/ — прокси, автозапуск, обновления<br>Это не только про «красивый код». Благодаря рефакторингу исправлены скрытые баги и упрощено добавление новых функций.<br><br>• Композиция вместо наследования<br>Раньше UI-класс наследовался от логики — это антипаттерн, который усложнял тестирование и создавал неявные зависимости. Теперь ClipGenApp собирает компоненты как конструктор. Каждый модуль можно тестировать отдельно.<br><br>• Унифицированные провайдеры<br>Gemini и OpenAI теперь работают через единый интерфейс APIProvider. Добавить новый провайдер (Anthropic, Mistral) — это написать один класс на 50 строк, а не копировать код по всему проекту.<br><br><br><a href = "stickers/sticker (2).webp">😎</a> Скачать: <a href="https://github.com/Veta-one/ClipGen/releases/tag/v2.3.0">Обновленный EXE уже на GitHub</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+4
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-14">
+
+      <div class="body details">
+12 April 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message23">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="12.04.2026 12:33:23 UTC+03:00">
+12:33
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_13@12-04-2026_12-33-23.jpg">
+
+         <img class="photo" src="photos/photo_13@12-04-2026_12-33-23_thumb.jpg" style="width: 260px; height: 146px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+<a href = "stickers/sticker (3).webp">👨‍⚕️</a> Написал статью на Хабр про штуку, которую делал последнее время.<br><br>У меня накопилась куча медицинских документов: анализы, выписки, заключения разных врачей. Как у всех, фотки на телефоне, бумажки в папке. Я собрал всё в одном месте, написал под это веб-сервис и дал нейросети (Claude Opus) посмотреть на это целиком.<br><br>Она нашла анализы, которые не назначали годами, противоречия между врачами, и собрала мне план чекапа на 35 пунктов. <br><br><strong>В статье подробно расписал, как всё устроено внутри:</strong><br>• React + SQLite<br>• AI-координатор без вызовов API <br>• 40 триггеров для автоматической истории изменений<br>• WebAuthn авторизация через Face ID<br>• бэкапы с шифрованием через Telegram<br>• и куча другого<br><br>Плюс реальные находки и честный разбор.<br><br>Статья: <a href="https://habr.com/ru/articles/1022450/">https://habr.com/ru/articles/1022450/</a><br><br>Код выложу сюда и на GitHub в ближайшие пару недель. Если из этого эксперимента будет что-то интересное — буду публиковать тут. Я сам пока не знаю, чем всё закончится, но пока результат нравится<br><br>UPD: <strong>GitHub:</strong> <a href="https://github.com/Veta-one/anamnesis">github.com/Veta-one/anamnesis</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+15
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+4
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤‍🔥
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-15">
+
+      <div class="body details">
+14 April 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message24">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="14.04.2026 14:09:35 UTC+03:00">
+14:09
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_14@14-04-2026_14-09-35.jpg">
+
+         <img class="photo" src="photos/photo_14@14-04-2026_14-09-35_thumb.jpg" style="width: 260px; height: 146px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Сегодня наткнулся на новость: <br><br><blockquote>С 15 апреля популярные российские приложения начали блокировать пользователей с включённым VPN. Минцифры обязало все крупные отечественные площадки это делать.<br><br>Многие советуют настроить раздельную маршрутизацию, чтобы трафик к российским адресам шёл в обход VPN. Иногда помогает, но не всегда. <br><br>Сильнее всех отличился 2ГИС на iOS: реализовали максимально мерзопакостно. Даже если роутинг настроен правильно, приложение целенаправленно пингует какой-то левый западный сервис, вообще не относящийся к 2ГИС, только чтобы спалить включённый VPN.</blockquote><br><br><strong>Расскажу, как я это у себя пофиксил</strong>:<br><br><blockquote>Про iOS. Если честно, подобного решения вроде бы нет. VPN в айфоне работает сразу на всё устройство, сделать отдельную песочницу без VPN не получится. Максимум, что можно, это настроить split tunneling по доменам в клиенте типа AmneziaVPN, Streisand или v2RayTun. Но против схемы 2ГИС с левым пингом и это не спасает. Так что остаётся либо выключать VPN на время, либо пользоваться веб-версиями. Если я не прав или кто-то знает рабочий способ, напишите в комменты, будет полезно.</blockquote><br><br>Про Android. Тут всё ок, но с нюансом. Я на Pixel, то есть на чистом андроиде. На MIUI, One UI, ColorOS и прочих китайско-корейских оболочках интерфейс и поведение могут отличаться.<br><br>На чистом Android есть штука под названием Частное пространство (Private Space). Задумывалась она вообще для обратной задачи, чтобы спрятать чувствительные приложения и данные. Но для нашего случая подходит идеально.<br><br>В чём суть. Частное пространство это фактически отдельный пользовательский профиль внутри вашего телефона, со своей авторизацией в Google. Приложения внутри живут в полной изоляции, как на только что купленном телефоне. У них нет доступа к вашим контактам, галерее, файлам. Даже если дать им все разрешения, они всё равно ничего не увидят, потому что на новом гугл-аккаунте просто ничего нет.<br><br>Но самое важное VPN включённый в основном профиле, не распространяется на частное пространство. Приложения оттуда ходят в интернет напрямую, без VPN. Ровно то, что нам нужно.<br><br><strong>Как настроить:</strong><br><br>• Настройки ➜ Безопасность и конфиденциальность ➜ Частное пространство<br>• Заведите отдельный новый Google-аккаунт специально под него<br>• Установите в него все РФ-приложения (банки, 2ГИС, Госуслуги и прочее), а из основного профиля их удалите<br>• VPN держите включенным в основном профиле, внутри приватного пространства VPN-клиент не ставьте<br><br><strong>Из минусов:</strong><br><br>• Во все приложения придётся заново залогиниться<br>• Когда частное пространство заблокировано, приложения внутри полностью останавливаются. С одной стороны это плюс, никакой фоновой активности и батарею не жрут. С другой, пуши от банков тоже не приходят. Блокировку можно повесить не сразу, а, например, через 30 минут или при перезагрузке телефона<br>• Доступ к приложениям чуть менее удобный. Иконки нельзя вынести на рабочий стол, они открываются только из отдельной папки внизу списка приложений<br><br>Про то, как MAX помогает государству отлавливать пользователей VPN, вы, надеюсь, уже в курсе. Если нет, вот <a href="https://habr.com/ru/articles/1006666/">отличный разбор с реверс-инжинирингом</a>. И мысль тут простая: ничего технически не мешает Госуслугам, VK, Сберу и любому другому крупному российскому приложению в любой момент (если они уже этим не занимаются) прикрутить ровно то же самое. <span class="spoiler hidden" onclick="ShowSpoiler(this)"><span aria-hidden="true">*Поправил свою шапочку из фольги</span></span><br><br>UPD: в комментах поправили, способ не рабочий сейчас. Приложение в изоляции и данные не увидит, но сам факт включённого VPN всё равно палится <a href = "video_files/sticker.webm">😭</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+2
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-16">
+
+      <div class="body details">
+16 April 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message25">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="16.04.2026 07:08:04 UTC+03:00">
+07:08
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_15@16-04-2026_07-08-04.jpg">
+
+         <img class="photo" src="photos/photo_15@16-04-2026_07-08-04_thumb.jpg" style="width: 260px; height: 146px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Нашел вчера расширение <a href="https://github.com/zarazhangrui/tab-out">Tab Out от Zara Zhang</a>. Оно заменяет пустую новую вкладку на дашборд со всеми открытыми вкладками, сгруппированными по доменам. По работе у меня постоянно открыто 40-60 вкладок, и это реально помогло поддерживать порядок.<br><br>Я сижу в Edge, там есть ультра удобная штука: вертикальные вкладки. Из-за них я и ушёл с Chrome пару лет назад. Инфы помещается сильно больше, можно выделить 10+ вкладок и нажать Ctrl+W чтобы все закрыть. Но Tab Out добавляет к этому визуальную группировку и возможность закрыть группу вкладок по домену целиком.<br><br>Ещё там есть &quot;Save for Later&quot; возможность сохранить вкладку в отдельный список что бы не потерять. Да, я знаю что в браузерах есть закладки и списки для чтения. Но я ими раньше никогда не пользовался, а тут это прям удобно.<br><br>Но вот от чего я реально кайфанул: сама идея этой страницы. Новую вкладку я вижу сотню раз в день. И решил сделать её чуток полезнее для себя.<br><br>До этого я сидел на NightTab, там были красивые ярлыки для быстрого доступа к сайтам. И решил всё объединить, взяв Tab Out за основу.<br><br>Что добавил:<br><br>• Быстрые ярлыки, как в NightTab, добавил drag-and-drop, с редактированием цветов и иконок прямо на странице. Можно загрузить свою SVG-иконку, выбрать цвет фона, перетаскивать между группами. 48 ярлыков у меня сейчас, по группам: поиск, облако, AI-инструменты, рабочие сервисы, dev.<br><br>• Погода: текущая температура, прогноз на сегодня и завтра, восход/закат, качество воздуха (AQI) с дельтой относительно вчера. Город выбирается в настройках.<br><br>• Курсы валют: доллар и евро по ЦБ РФ, крипта (BTC, ETH, SOL, TON) через CoinGecko. Со стрелками и разницей со вчера.<br><br>• Системные метрики: загрузка CPU и GPU, температуры, RAM, место на диске, VRAM, обороты кулера. Для температур нужен Libre Hardware Monitor, бесплатная утилита, которая отдаёт данные по HTTP. Всё остальное берётся из API Chrome.<br><br>• Пинг до важных серверов: Google, GitHub, рабочие хосты. Цветная точка + миллисекунды. Сразу видно, работает ли интернет и что именно лежит.<br><br>• Speedtest: замер скорости по кнопке через Cloudflare. Результат сохраняется и висит до следующего замера. В связи с последними событиями и тестами VPN для меня это актуально.<br><br>• Закреплённые вкладки (Pinned): вкладки которые всегда открыты (почта, мессенджеры, рабочие дашборды). Они исчезают из списка открытых и живут в своей секции. Что бы не мешали.<br><br>• Тёмная тема: светлая, тёмная, или автоматическая по закату/рассвету.<br><br>• Полный экспорт/импорт настроек в JSON. Переустановил винду, загрузил файл, всё вернулось.<br><br>Как это работает: всё живёт внутри расширения. Данные в chrome.storage.local. Погода и курсы тянутся напрямую из публичных API с кешированием. Когда вкладка в фоне, все запросы ставятся на паузу, нагрузка нулевая.<br><br>Как установить:<br>1. Скачать репозиторий (git clone или ZIP)<br>2. Открыть edge://extensions (или chrome://extensions)<br>3. Включить &quot;Режим разработчика&quot;<br>4. &quot;Загрузить распакованное&quot; &gt; выбрать папку extension/<br>5. Открыть новую вкладку<br><br>Работает в Chrome и Edge на любой ОС: Windows, Mac, Linux. Единственное: системные метрики (температуры CPU/GPU) требуют Libre Hardware Monitor, который есть только под Windows. На Mac и Linux будут работать RAM, диск, погода, курсы, всё кроме температур.<br><br><a href = "stickers/sticker (2).webp">😎</a> <a href="https://github.com/Veta-one/tab-out-veta">https://github.com/Veta-one/tab-out-veta</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+8
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+1
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-17">
+
+      <div class="body details">
+18 April 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message26">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="18.04.2026 15:26:08 UTC+03:00">
+15:26
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_16@18-04-2026_15-26-08.jpg">
+
+         <img class="photo" src="photos/photo_16@18-04-2026_15-26-08_thumb.jpg" style="width: 260px; height: 145px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+<a href = "stickers/sticker (3).webp">👨‍⚕️</a> Открыл код сервиса<br><br>Напомню: медицинский трекер, где Нейронка (Claude Opus, или любая другая модель на ваш выбор) сама читает документы, заполняет БД, связывает визиты и анализы, подсвечивает отклонения. <a href="https://habr.com/ru/articles/1022450/">Статья на Хабре, если кто пропустил.</a><br><br>Несколько важных вещей, которые стоит поднять перед тем как смотреть код:<br><br><strong>Сервис изначально проектировался под AI, а не под ручной ввод.</strong> Пользователь в UI может немногое: загрузить документ, отметить план выполненным, оставить комментарий, поправить мелочь. Всё остальное делает нейронка.<br><br><strong>Почему так.</strong> В таблице анализов 10+ полей: параметр, значение, единица измерения, референсный диапазон, статус, связь с визитом. Никто не будет руками 15 раз подряд заносить показатели из одного ОАК, тем более каждый месяц. AI делает это за минуты. Плюс он замечает странные комбинации (например высокий Т4 при нормальном ТТГ), и унифицирует данные: всегда пишет «Туева И.Д.» одинаково, а не «Туева», «Ирина Д.», &quot;невролог Туева&quot;. Без этого FTS5-поиск разваливается, графики динамики пустые, кросс-ссылки между сущностями не работают.<br><br>Без AI сервис работает, но как обычная картотека, без того что делает его реально полезным.<br><br><strong>К какой модели подключать.</strong><br><br>В коде нет привязки к Anthropic. Это просто протокол: AI получает доступ к БД через HTTP+SQL и следует инструкциям из <code>AI_COORDINATOR_GUIDE.md</code>. Подойдут Claude Code, Cursor, Aider, Gemini CLI, Codex, локальные модели через Ollama. Гайды по каждому в <code>docs/setup/</code>.<br><br>Но: чем слабее модель, тем больше ошибок. На 70B-локалке рутинный перенос данных работает, клиническое мышление — нет. Речь о здоровье, так что советую не экономить на модели.<br><br><strong>И главное: AI ошибается.</strong><br><br>У меня был реальный случай: нейронка криво прочитала PDF «СОЭ 11++» как «Т4 свободный 11», получил ложный критический диагноз подозрения на гипертиреоз. Пришлось откатывать.<br><br><strong>Сервис это не врач, AI-оценки в нём — это не диагноз.</strong> Это организатор документов с умным помощником, не больше. Всё что AI пишет в БД, я перечитываю. Любому кто захочет попробовать, советую делать так же.<br><br><strong>Запуск локально:</strong><br><br><pre>git clone github.com/Veta-one/anamnesis<br>cd anamnesis/backend &amp;&amp; npm install &amp;&amp; npm run init-db &amp;&amp; npm start<br>cd ../frontend &amp;&amp; npm install &amp;&amp; npm run dev</pre><br><br>На <code>localhost:5173</code> увидите UI с демо-пациентом «Иванов Иван». Можно полистать, понять как всё устроено. Для production (VPS + TLS + systemd + бэкапы + WebAuthn) подробный гайд в <code>DEPLOY.md</code>.<br><br>Любую обратную связь, критику, и идеи пишите в комменты<br><br><a href = "stickers/sticker (2).webp">😎</a> <strong>GitHub:</strong> <a href="https://github.com/Veta-one/anamnesis">github.com/Veta-one/anamnesis</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+15
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+👍
+         </span>
+
+         <span class="count">
+10
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+6
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-18">
+
+      <div class="body details">
+19 April 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message27">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="19.04.2026 10:25:11 UTC+03:00">
+10:25
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_17@19-04-2026_10-25-11.jpg">
+
+         <img class="photo" src="photos/photo_17@19-04-2026_10-25-11_thumb.jpg" style="width: 260px; height: 146px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+Написал статью на Хабр про <a href="https://okna.tv/">Окна.ТВ</a>.<br><br>Полгода назад мы с командой - четыре дизайнера и видеоредактор решили сделать что-нибудь крутое просто потому что можем. Без дедлайнов и заказчиков. Получился интерактивный дом-таймлайн про российское телевидение 90-х и 00-х.<br><br>В статье рассказал как это устроено под капотом:<br>• ванильный JS без фреймворков<br>• прелоадер с ТВ-помехами на Canvas, почему не WebM и не GIF<br>• как сжимали картинки в 31 раз и перестали об этом думать<br>• OOM killer в Kubernetes и как я его победил<br>• своя CMS, коллаборативные блокировки без Redis и WebSocket<br>• переезд с VPS за $5 в корпоративный K8s<br><br>И завтра, 20 апреля, открываем последний заключительный этап. Дом наконец будет достроен.<br><br>Статья: <a href="https://habr.com/ru/articles/1025152/">https://habr.com/ru/articles/1025152/</a><br>Сайт: <a href="https://okna.tv/">okna.tv</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+12
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+7
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-19">
+
+      <div class="body details">
+11 June 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message28">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="11.06.2026 12:17:26 UTC+03:00">
+12:17
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+
+       <div class="media_wrap clearfix">
+
+        <a class="photo_wrap clearfix pull_left" href="photos/photo_18@11-06-2026_12-17-26.jpg">
+
+         <img class="photo" src="photos/photo_18@11-06-2026_12-17-26_thumb.jpg" style="width: 260px; height: 146px"/>
+
+        </a>
+
+       </div>
+
+       <div class="text">
+<a href = "stickers/sticker (1).webp">😎</a> <strong>ClipGen 2.4: Голосовой ввод</strong><br><br>Большое обновление. ClipGen научился превращать речь в текст в любом приложении, полностью локально, без облаков и подписок.<br><br><strong>Как это работает</strong><br><br>Зажимаете горячую клавишу → говорите → отпускаете. Текст появляется там, где стоит курсор: в мессенджере, браузере, редакторе кода, в почте. Ничего не нужно копировать и переключать окна.<br><br>Голос вообще не уходит с компьютера. Модель работает прямо на вашей машине: без API-ключей, без интернета, без лимитов.<br><br><strong>Скорость: реальные цифры</strong><br><br>Я пользуюсь им уже третью неделю и в итоге остановился на движке Parakeet от NVIDIA. Вот замеры с моего ноутбука (RTX 3060):<br><br>• Фраза на 7–8 секунд речи: Parakeet распознаёт за 0.1 секунды на видеокарте, на процессоре — около секунды. Whisper large-v3 на видеокарте — 1.3 секунды<br>• Диктовка на 24 секунды: Parakeet — 0.3 секунды, Whisper — 2.9<br>• Получается, Parakeet работает примерно в 90 раз быстрее реального времени. Отпустил клавишу — текст уже стоит, буквально<br>• Видеокарта не обязательна: даже на процессоре выходит около секунды на обычной фразе<br>• Модель грузится в память за несколько секунд и дальше просто дежурит. Полежала без дела → сама выгрузилась и освободила память<br><br><strong>Внутри два движка</strong><br><br>• Whisper (OpenAI) — 99 языков, максимальное качество. Модели от tiny (75 МБ) до large-v3 (3 ГБ)<br>• Parakeet (NVIDIA) — 25 языков, включая русский. Очень быстрый, весит 2.5 ГБ<br><br><strong>Как включить</strong><br><br>Скачайте новый ClipGen.exe (ссылка внизу). Если уже пользуетесь — программа сама предложит обновиться<br>Нужен Python 3.10+ (бесплатно с <a href="https://python.org">python.org</a>, при установке поставьте галочку «Add python.exe to PATH»)<br>Настройки → «Голосовая транскрибация» → включить<br>Выбираете движок и модель, жмёте «Установить / Скачать» → программа сама ставит компоненты и качает модель, с прогрессом и кнопкой отмены<br>Жмёте «Загрузить модель» или включите «Загружать модель при старте», чтобы всё было готово сразу после запуска<br><br><strong>Как настроить горячую клавишу</strong><br><br>Вкладка Промпты → «Добавить новое действие»<br>Тип действия → «Голосовая транскрибация»<br>Назначьте комбинацию, которую удобно держать зажатой<br>По желанию укажите язык (или оставьте автоопределение) и словарь-подсказку: впишите туда свои термины, имена и аббревиатуры — модель будет писать их правильно<br>Клавиш можно сделать несколько: одна под русский, другая под английский, третья со своей рабочей терминологией.<br><br><strong>Из приятного</strong><br><br>• В углу экрана маленький оверлей: запись → распознавание → готово<br>• Иконка в трее подсказывает цветом: красная → идёт запись, жёлтая → распознавание<br>• Звуковые сигналы в начале и конце записи (можно выключить)<br>• Фильтр галлюцинаций убирает фразы-паразиты, которые нейросети любят придумывать на тишине<br>• Лимит записи настраивается, по умолчанию 2 минуты<br><br>И под капотом много работы над надёжностью: служебные процессы гарантированно завершаются вместе с программой, память не утекает даже после сбоев, а окно обновлений теперь говорит на вашем языке — с переключателем Русский/English.<br><br><a href = "stickers/sticker (2).webp">😎</a> Скачать: <a href="https://github.com/Veta-one/ClipGen/releases/latest">https://github.com/Veta-one/ClipGen/releases/latest</a>
+       </div>
+
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+8
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+❤
+         </span>
+
+         <span class="count">
+4
+         </span>
+
+        </span>
+
+        <span class="reaction">
+
+         <span class="emoji">
+👍
+         </span>
+
+         <span class="count">
+3
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+     <div class="message service" id="message-20">
+
+      <div class="body details">
+21 August 2026
+      </div>
+
+     </div>
+
+     <div class="message default clearfix" id="message29">
+
+      <div class="pull_left userpic_wrap">
+
+       <div class="userpic userpic6" style="width: 42px; height: 42px">
+
+        <div class="initials" style="line-height: 42px">
+V
+        </div>
+
+       </div>
+
+      </div>
+
+      <div class="body">
+
+       <div class="pull_right date details" title="21.08.2026 15:23:32 UTC+03:00">
+15:23
+       </div>
+
+       <div class="from_name">
+VETA пробует 
+       </div>
+<div class="text rich_message" data-rich-message="29" data-rich-part="false" dir="auto">
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Хочу показать вам проект, над которым работаю с начала лета.
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Когда-то я пользовался ZenMoney. Это хороший и удобный сервис, но со временем мне стало не хватать его возможностей. К тому же разработчики перестали поддерживать веб-версию.
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+В какой-то момент я решил сделать собственный инструмент. Так появился MONEY.
+        </p>
+
+        <figure class="rich_block rich_media_item" data-photo-id="5206648549704147449" data-rich-kind="photo" data-spoiler="false">
+
+         <div class="media_wrap clearfix">
+
+          <a class="photo_wrap clearfix pull_left" href="photos/photo_19@21-08-2026_15-23-32.jpg">
+
+           <img class="photo" src="photos/photo_19@21-08-2026_15-23-32_thumb.jpg" style="width: 260px; height: 144px"/>
+
+          </a>
+
+         </div>
+
+        </figure>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+MONEY собирает финансовую картину в одном месте. Он помогает разбирать операции, следить за обязательными платежами, планировать бюджет и понимать, растёт ли капитал.
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Сейчас это бета. Всё основное уже работает, но сервис продолжает активно развиваться, а банков пока немного:
+        </p>
+
+        <ul class="rich_block rich_list" data-rich-kind="list">
+
+         <li class="rich_list_item" data-rich-content="text">
+<span class="rich_list_content">Райффайзен: уведомления и выписки;</span>
+         </li>
+
+         <li class="rich_list_item" data-rich-content="text">
+<span class="rich_list_content">Сбер: PDF-выписки;</span>
+         </li>
+
+         <li class="rich_list_item" data-rich-content="text">
+<span class="rich_list_content">Ozon Банк: PDF-выписки;</span>
+         </li>
+
+         <li class="rich_list_item" data-rich-content="text">
+<span class="rich_list_content">универсальные CSV- и XLSX-файлы.</span>
+         </li>
+
+        </ul>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Я физически не могу подключить все банки без помощи пользователей. У каждого банка свои уведомления, форматы и структура выписок, поэтому мне нужны реальные примеры.
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Если вашего банка пока нет, напишите об этом в комментариях. Новый обработчик уведомлений или выписки можно сделать в течение дня. И после этого готовым обработчиком сможете пользоваться не только вы, но и другие клиенты этого банка.
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Никакие пароли, PIN-коды, CVV и доступ к интернет-банку мне не нужны. Для разработки достаточно нескольких примеров уведомлений или выписок. <br>
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Сейчас MONEY работает:
+        </p>
+
+        <ul class="rich_block rich_list" data-rich-kind="list">
+
+         <li class="rich_list_item" data-rich-content="text">
+<span class="rich_list_content">как PWA на телефоне, его можно установить на главный экран;</span>
+         </li>
+
+         <li class="rich_list_item" data-rich-content="text">
+<span class="rich_list_content">в браузере на компьютере;</span>
+         </li>
+
+         <li class="rich_list_item" data-rich-content="text">
+<span class="rich_list_content">вместе с Telegram-ботом, которому можно отправлять выписки, фотографии чеков, текстовые и голосовые операции.</span>
+         </li>
+
+        </ul>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Android-приложение уже готово и находится на модерации в RuStore. Позже оно появится и в Google Play. Приложение читает уведомления выбранных вами банков и автоматически превращает их в операции.
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Поскольку Android-приложение получает доступ к банковским уведомлениям, его код будет открыт, любой сможет проверить, что приложение делает именно то, о чём заявлено.
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Сейчас мне очень нужны первые пользователи, чтобы понять, где MONEY действительно удобен, чего ему не хватает и какие банки нужно подключать в первую очередь.
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Активных бета-тестеров я обязательно отблагодарю. Тем, кто поможет подключить новый банк, найдёт серьёзную ошибку или будет регулярно присылать подробную обратную связь. 
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Если хотите попробовать, переходите на сайт и регистрируйтесь:
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+<span class="rich_custom_emoji" data-document-id="5206695832539146659"><a href="stickers/sticker (4).webp">💎</a></span>  <a href="https://veta.money/">veta.money</a>
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+А в комментариях напишите, хотите ли участвовать в бете и каким банком пользуетесь.
+        </p>
+
+        <p class="rich_block rich_paragraph" data-rich-kind="paragraph" dir="auto">
+Буду благодарен за любые вопросы, идеи и честную критику. Сейчас как раз тот момент, когда первые пользователи могут заметно повлиять на то, каким станет MONEY.
+        </p>
+</div>
+       <span class="reactions">
+
+        <span class="reaction">
+
+         <span class="emoji">
+🔥
+         </span>
+
+         <span class="count">
+6
+         </span>
+
+        </span>
+
+       </span>
+
+      </div>
+
+     </div>
+
+    </div>
+
+   </div>
+
+  </div>
+
+ </body>
+
+</html>
